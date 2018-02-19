@@ -15,14 +15,14 @@ namespace MVCHelloTest.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "It's All About me!";
+            ViewBag.Message = "I've changed, it's all about the team dynamic";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Contact me";
+            ViewBag.Message = "Contact my assistant";
 
             return View();
         }
